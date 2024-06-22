@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/933d49ca6c.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <section>
+
+        <section class="contact-section">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <a href="mailto:info@company.com"><i class="fa-solid fa-envelope" style="color: #ea4710;"></i>
+                        info@company.com</a>
+                    <p><i class="fa-solid fa-map" style="color: #ea4710;"></i> Sunny Isles Beach, FL 33160</p>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                </div>
+            </div>
+        </section>
+
+
+    </section>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>VILLA</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Properties</a></li>
+                    <li><a href="#">Property Details</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#" class="schedule-visit"><i class="fa-solid fa-calendar" style="color: #e87121;"></i>
+                            Schedule a visit</a></li>
+
+                </ul>
+            </nav>
+
+    </header>
+    <main>
+        <!-- section1-->
+        <section class="property-gallery">
+            <div class="gallery-container">
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <div class="slides">
+                    <img src="images/property-01.jpg" alt="Property Image 1" class="active">
+                    <img src="images/property-02.jpg" alt="Property Image 2">
+                    <img src="images/property-03.jpg" alt="Property Image 3">
+                    <img src="images/property-04.jpg" alt="Property Image 4">
+                    <img src="images/property-05.jpg" alt="Property Image 5">
+                    <img src="images/property-06.jpg" alt="Property Image 6">
+
+
+
+
+                </div>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </section>
+
+        <!--fetured section-->
+        <section class="featured">
+            <div class="featured-content">
+                <div class="featured-image">
+                    <img src="images/featured.jpg" alt="Property Image">
+                </div>
+                <div class="featured-details">
+
+                    <h2><span class="featured-tag">| FEATURED</span><br>Best Apartment & Sea View</h2><br>
+                    <div class="dropdown">
+                        <button class="dropbtn">Best useful links? <i class="fa-solid fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <p>Get the best villa website template in HTML CSS and Bootstrap for your business.
+                                TemplateMo provides you the best free CSS templates in the world. Please tell your
+                                friends about it.</p>
+
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">How does this work? <i class="fa-solid fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <p>Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut
+                                labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua.</p>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Why villa is best? <i class="fa-solid fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <p>Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut
+                                labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua.</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="features">
+                    <div class="feature-item">
+                        <i class="fas fa-ruler-combined"></i>
+
+                        <p>250 m2 <br>Total Flat Space</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-file-contract"></i>
+                        <p>Contract<br>Contract Ready</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-credit-card"></i>
+                        <p>Payment<br>Process</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+        <section class="blur-bg-section">
+            <div class="blur-bg">b</div>
+            <div id="tg">
+                <h2><span class="featured-tag">| FEATURED</span><br>Best Apartment & Sea View</h2>
+            </div>
+            <div class="video-wrapper">
+
+                <div class="video-thumbnail">
+                    <button class="play-button">&#9658;</button>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="stats">
+            <div class="stat-block">
+                <div class="circle"></div>
+                <div class="number">34</div>
+                <div class="label">Buildings<br>Finished Now</div>
+            </div>
+            <div class="stat-block">
+                <div class="circle"></div>
+                <div class="number">12</div>
+                <div class="label">Years<br>Experience</div>
+            </div>
+            <div class="stat-block">
+                <div class="circle"></div>
+                <div class="number">24</div>
+                <div class="label">Awards<br>Won 2023</div>
+            </div>
+        </section>
+
+        <!--best deal section-->
+
+        <div class="container">
+            <div id="tg3">
+                <h2><span class="featured-tag">| Best deals</span><br>Find Your Best Deal Right Now!</h2>
+            </div>
+            <div class="dealb">
+                <a>Apartment</a>
+                <a>Villa House</a>
+                <a>Pent House</a>
+            </div>
+        </div>
+        <section class="property-details">
+            <div class="property-content">
+                <div class="property-info">
+                    <div class="info-block">
+                        <p>Total Flat Space</p>
+                        <p>185 m2</p>
+                    </div>
+                    <div class="info-block">
+                        <p>Floor number</p>
+                        <p>26th</p>
+                    </div>
+                    <div class="info-block">
+                        <p>Number of rooms</p>
+                        <p>4</p>
+                    </div>
+                    <div class="info-block">
+                        <p>Parking Available</p>
+                        <p>Yes</p>
+                    </div>
+                    <div class="info-block">
+                        <p>Payment Process</p>
+                        <p>Bank</p>
+                    </div>
+                </div>
+                <div class="property-image">
+                    <img src="images/property-05.jpg" alt="Property Image">
+                </div>
+                <div class="extra-info">
+                    <h2>Extra Info About Property</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut
+                        labore et dolore magna aliqua quis ed ipsum suspendisse.</p>
+                    <p>When you need free CSS templates, you can simply type TemplateMo in any search engine website. In
+                        addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.</p>
+                </div>
+            </div>
+        </section>
+        <!-- //secccc -->
+        <section class=" property">
+            <div id="tg1">
+                <h2><span class="featured-tag">| PROPERTIES</span><br>We Provide The Best Property You Like</h2>
+            </div>
+
+
+            <div class="property-list">
+                <div class="property-card">
+                    <img src="images/property-01.jpg" alt="Property Image">
+                    <div class="property-details">
+                        <span class="tag">Luxury Villa</span>
+                        <span class="price">$2,264,000</span>
+                        <h3>18 New Street Miami, OR 97219</h3>
+                        <p>Bedrooms: 8 Bathrooms: 8</p>
+                        <p>Area: 545m² Floor: 3</p>
+                        <p>Parking: 6 spots</p><br>
+                        <a style="text-decoration: none;" href="#" class="schedule-visit">Schedule a visit</a>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <img src="images/property-02.jpg" alt="Property Image">
+                    <div class="property-details">
+                        <span class="tag">Luxury Villa</span>
+                        <span class="price">$1,180,000</span>
+                        <h3>54 Mid Street Florida, OR 27001</h3>
+                        <p>Bedrooms: 6 Bathrooms: 5</p>
+                        <p>Area: 450m² Floor: 3</p>
+                        <p>Parking: 8 spots</p><br>
+                        <a style="text-decoration: none;" href="#" class="schedule-visit">Schedule a visit</a>
+
+                    </div>
+                </div>
+                <div class="property-card">
+                    <img src="images/property-03.jpg" alt="Property Image">
+                    <div class="property-details">
+                        <span class="tag">Luxury Villa</span>
+                        <span class="price">$1,460,000</span>
+                        <h3>26 Old Street Miami, OR 38540</h3>
+                        <p>Bedrooms: 5 Bathrooms: 4</p>
+                        <p>Area: 225m² Floor: 3</p>
+                        <p>Parking: 10 spots</p>
+                        <br>
+                        <a style="text-decoration: none;" href="#" class="schedule-visit">Schedule a visit</a>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <img src="images/property-04.jpg" alt="Property Image">
+                    <div class="property-details">
+                        <span class="tag">Apartment</span>
+                        <span class="price">$584,500</span>
+                        <h3>24 New Street Miami, OR 24560</h3>
+                        <p>Bedrooms: 4 Bathrooms: 3</p>
+                        <p>Area:125m2 Floor: 25th</p>
+                        <p>Parking: 2 cars</p>
+                        <br>
+                        <a style="text-decoration: none;" href="#" class="schedule-visit">Schedule a visit</a>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <img src="images/property-05.jpg" alt="Property Image">
+                    <div class="property-details">
+                        <span class="tag">PentHouse</span>
+                        <span class="price">$925,600</span>
+                        <h3>24 New Street Miami, OR 24560</h3>
+                        <p>Bedrooms: 4 Bathrooms: 4</p>
+                        <p>Area:180m2 Floor: 38th</p>
+                        <p>Parking: 2 cars</p>
+                        <br>
+                        <a style="text-decoration: none;" href="#" class="schedule-visit">Schedule a visit</a>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <img src="images/property-04.jpg" alt="Property Image">
+                    <div class="property-details">
+                        <span class="tag">Modern Condo</span>
+                        <span class="price">$450,000</span>
+                        <h3>24 New Street Miami, OR 24560</h3>
+                        <p>Bedrooms: 3 Bathrooms: 2</p>
+                        <p>Area:125m2 Floor: 26th</p>
+                        <p>Parking: 3 cars</p>
+                        <br>
+                        <a style="text-decoration: none;" href="#" class="schedule-visit">Schedule a visit</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+        <!-- section -->
+        <section class="contact-us">
+            <div class="c2"></div>
+            <div id="tg2">
+                <h2><span class="featured-tag">| Contact Us</span><br>Get In Touch With Our Agents</h2>
+            </div>
+            <div class="container">
+
+
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31602.074668972144!2d-80.19026225250263!3d25.79065411144671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b69c57f630f5%3A0x2b04e1836a1c03eb!2sMiami%2C%20FL%2C%20USA!5e0!3m2!1sen!2sin!4v1686871942859!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div class="contact-form">
+                    <form action="#">
+                        <label>Full name</label>
+                        <input type="text" placeholder="Your Name" required>
+                        <label>Email</label>
+                        <input type="email" placeholder="Email Address" required>
+                        <label>Subject</label>
+                        <input type="text" placeholder="Subject" required>
+                        <label>Message</label>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+            </div>
+
+            <div class="contact-info">
+                <div class="info-card">
+                    <i class="fas fa-phone-alt"></i><br>
+                    <p>010-020-0340</p><br>
+                    <span>Phone Number</span>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-envelope"></i><br>
+                    <p>info@villa.co</p><br>
+                    <span>Business Email</span>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Copyright &copy 2048 Villa Agency Co., Ltd. All rights reserved. Design: satish</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

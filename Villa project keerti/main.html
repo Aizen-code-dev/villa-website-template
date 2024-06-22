@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .video-wrapper {
+            position: relative;
+            width: 80%;
+            max-width: 800px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .video-thumbnail {
+            position: relative;
+            padding-top: 56.25%;
+            /* 16:9 Aspect Ratio */
+            background: url('images/featured.jpg') center center / cover no-repeat;
+            /* Replace with your video thumbnail URL */
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.7);
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            color: #ff5722;
+            cursor: pointer;
+            outline: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .play-button:hover {
+            background-color: rgba(255, 255, 255, 1);
+        }
+        .blur-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('images/bg.jpeg'); /* Replace with your image URL */
+            background-size: cover;
+            filter: blur(10px);
+        }
+      
+    </style>
+</head>
+
+<body>
+    <div class="blur-bg"></div>
+    <div class="video-wrapper">
+        <div >
+            <h2><span class="featured-tag">| FEATURED</span><br>Best Apartment & Sea View</h2>
+        </div>
+
+        <div class="video-thumbnail">
+            <button class="play-button">&#9658;</button>
+        </div>
+    </div>
+</body>
+
+</html>
